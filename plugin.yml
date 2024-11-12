@@ -1,0 +1,14 @@
+name: RenameItemPlugin
+version: 1.0
+main: com.example.renameitem.RenameItemPlugin
+api-version: 1.21
+authors: [ cptgummiball ]
+commands:
+  renameitem:
+    description: Benennt das Item in der Hand um
+    usage: /renameitem <neuername>
+    permission: renameitem.use
+permissions:
+  renameitem.use:
+    description: Erlaubt das Umbenennen von Items
+    default: op
