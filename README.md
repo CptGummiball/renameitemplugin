@@ -1,10 +1,10 @@
 # RenameItemPlugin
 
-**RenameItemPlugin** ist ein Minecraft-Plugin für Version 1.21.1, das es Spielern mit einer bestimmten Berechtigung erlaubt, das Item in ihrer Hand umzubenennen.
+**RenameItemPlugin** ist ein Minecraft-Plugin (Spigot Forks) für Version 1.21+, das es Spielern mit einer bestimmten Berechtigung erlaubt, das Item in ihrer Hand umzubenennen.
 
 ## Installation
 
-1. Lade die `.jar`-Datei des Plugins herunter oder kompiliere sie aus dem Quellcode.
+1. Lade den passenden [Release](https://github.com/CptGummiball/renameitemplugin/releases) herunter.
 2. Kopiere die `.jar`-Datei in den `plugins`-Ordner deines Minecraft-Servers.
 3. Starte den Server neu oder lade das Plugin mit `/reload` neu.
 
@@ -35,7 +35,7 @@ Dies würde das Item in der Hand in **Magisches Schwert** (hellgrün und blau) u
 
 - Der Spieler muss ein Item in der Hand halten, um es umzubenennen.
 - Spieler ohne die Berechtigung `renameitem.use` erhalten eine Fehlermeldung.
-- Das Plugin funktioniert ausschließlich für Minecraft-Version 1.21.1.
+- Das Plugin funktioniert ausschließlich mit Spigot Forks ab Version 1.21
 
 ## Lizenz
 
