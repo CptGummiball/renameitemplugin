@@ -1,4 +1,4 @@
-package com.example.renameitem;
+package org.cptgummiball.renameItems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -9,12 +9,13 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class RenameItemPlugin extends JavaPlugin implements CommandExecutor {
+public class Main extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
         // Registriert den Befehl beim Start des Plugins
         this.getCommand("renameitem").setExecutor(this);
+        getLogger().info("Item Renamer ist gestartet");
     }
 
     @Override
@@ -50,9 +51,15 @@ public class RenameItemPlugin extends JavaPlugin implements CommandExecutor {
         String newName = String.join(" ", args);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', newName));
+
         item.setItemMeta(meta);
 
         player.sendMessage(ChatColor.GREEN + "Das Item wurde erfolgreich umbenannt zu: " + ChatColor.RESET + meta.getDisplayName());
         return true;
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("Item Renamer wurde beendet");
     }
 }

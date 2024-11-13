@@ -21,7 +21,7 @@ Um ein Item in der Hand in „Magisches Schwert“ umzubenennen, nutze: `/rename
 
 Das Plugin unterstützt Farbcodes. Verwende `&` gefolgt von einem Farbbuchstaben oder einer Zahl (z.B. `&a` für hellgrün): `/renameitem &aMagisches &bSchwert`
 
-Dies würde das Item in der Hand in **Magisches Schwert** (hellgrün und blau) umbenennen.
+Dies würde das Item in der Hand in **Magisches Schwert** (hellgrün und aqua) umbenennen.
 
 ## Befehle und Berechtigungen
 
@@ -36,6 +36,8 @@ Dies würde das Item in der Hand in **Magisches Schwert** (hellgrün und blau) u
 - Der Spieler muss ein Item in der Hand halten, um es umzubenennen.
 - Spieler ohne die Berechtigung `renameitem.use` erhalten eine Fehlermeldung.
 - Das Plugin funktioniert ausschließlich mit Spigot Forks ab Version 1.21
+- Getestet wurde mit Spigot 1.21.1 und PaperMC 1.21.1 (build #131)
+- - Das Plugin ist aktuell nur auf Deutsch verfügbar
 
 ## Lizenz
 

@@ -1,7 +1,8 @@
-name: RenameItemPlugin
-version: 1.0
-main: com.example.renameitem.RenameItemPlugin
-api-version: 1.21
+name: RenameItems
+version: '1.0'
+main: org.cptgummiball.renameItems.Main
+api-version: '1.21'
+prefix: RenameItems
 authors: [ cptgummiball ]
 commands:
   renameitem:
