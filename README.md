@@ -36,7 +36,7 @@ Dies würde das Item in der Hand in **Magisches Schwert** (hellgrün und aqua) u
 - Der Spieler muss ein Item in der Hand halten, um es umzubenennen.
 - Spieler ohne die Berechtigung `renameitem.use` erhalten eine Fehlermeldung.
 - Das Plugin funktioniert ausschließlich mit Spigot Forks ab Version 1.21
-- Getestet wurde mit Spigot 1.21.1 und PaperMC 1.21.1 (build #131)
+- Getestet wurde mit Spigot 1.21.1, PaperMC 1.21.1 (build #131) und PaperMC 1.21.3 (build #27)
 - Das Plugin ist aktuell nur auf Deutsch verfügbar
 
 ## Lizenz
